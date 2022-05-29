@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2748741917959873069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9136782236192942442}
+  - component: {fileID: 3050531414680964549}
+  m_Layer: 0
+  m_Name: SpawnLoc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9136782236192942442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2748741917959873069}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.16, z: -5.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3050531414680964549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2748741917959873069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65f8a01417e88042a2f0aa605d03af1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefeb:
+  - {fileID: 6852301703420218025, guid: c213af762a7689f4a94eaa4e3da9c8b0, type: 3}
+  - {fileID: 5516030423287516787, guid: 82855b2ddef8d2b44bacfd3c1f5f10e1, type: 3}
+  - {fileID: 3441803712746984921, guid: 290d87f19ef8ab445bdcd74c1c62bde6, type: 3}
+  cheesePool:
+  - {fileID: 6852301703420218025, guid: c213af762a7689f4a94eaa4e3da9c8b0, type: 3}
+  - {fileID: 6852301703420218025, guid: c213af762a7689f4a94eaa4e3da9c8b0, type: 3}
+  - {fileID: 6852301703420218025, guid: c213af762a7689f4a94eaa4e3da9c8b0, type: 3}
+  prefebspawned: {fileID: 0}
+  cheeseInstance: {fileID: 0}
+  ghostInstance: {fileID: 0}
+  fillerInstance: {fileID: 0}
+  randnum: 0
+  CheeseProbability: 50
+  GhostProbability: 1
+  type: Filler
